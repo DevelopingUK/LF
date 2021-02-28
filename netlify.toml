@@ -1,5 +1,5 @@
 [build]
-  command = "NODE_ENV=development gatsby build"
+  command = "gatsby build"
   publish = "public"
 
 [template]
