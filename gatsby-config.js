@@ -38,7 +38,7 @@ if (process.env.NODE_ENV === `production` && config.siteUrl === `https://liamfal
 module.exports = {
     siteMetadata: {
         siteUrl: process.env.SITEURL || config.siteUrl,
-        siteUrl: "https://liamfall.netlify.app"
+        siteUrl: "https://liamfallen.com"
     },
     plugins: [
         /**
