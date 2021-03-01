@@ -62,15 +62,6 @@ module.exports = {
                 name: `images`,
             },
         },
-        {
-            resolve: 'gatsby-transformer-cloudinary',
-            options: {
-              cloudName: process.env.CLOUDINARY_CLOUD_NAME,
-              apiKey: process.env.CLOUDINARY_API_KEY,
-              apiSecret: process.env.CLOUDINARY_API_SECRET,
-              uploadFolder: 'gatsby-cloudinary',
-        },
-    },
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
         {
@@ -129,16 +120,6 @@ module.exports = {
                 verbose: true,
                 // Option to disable the module (default: false)
                 disable: false,
-            },
-        },
-        {
-            resolve:`gatsby-source-cloudinary`,
-            options: {
-            cloudName: process.env.CLOUDINARY_CLOUD_NAME,
-            apiKey: process.env.CLOUDINARY_API_KEY,
-            apiSecret: process.env.CLOUDINARY_API_SECRET,
-            resourceType: `image`,
-            prefix: `gatsby-source-cloudinary/`
             },
         },
         /**
