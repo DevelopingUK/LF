@@ -2,6 +2,7 @@ const path = require(`path`)
 
 const config = require(`./src/utils/siteConfig`)
 const generateRSSFeed = require(`./src/utils/rss/generate-feed`)
+require('dotenv').config();
 
 let ghostConfig
 
@@ -50,8 +51,6 @@ module.exports = {
             options: {
                 path: path.join(__dirname, `src`, `pages`),
                 name: `pages`,
-
-            resolve: `gatsby-theme-ghost-members`,
             },
         },  
         // Setup for optimised images.
@@ -63,6 +62,15 @@ module.exports = {
                 name: `images`,
             },
         },
+        {
+            resolve: 'gatsby-transformer-cloudinary',
+            options: {
+              cloudName: process.env.CLOUDINARY_CLOUD_NAME,
+              apiKey: process.env.CLOUDINARY_API_KEY,
+              apiSecret: process.env.CLOUDINARY_API_SECRET,
+              uploadFolder: 'gatsby-cloudinary',
+        },
+    },
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
         {
@@ -71,6 +79,67 @@ module.exports = {
                 process.env.NODE_ENV === `development`
                     ? ghostConfig.development
                     : ghostConfig.production,
+        },
+
+        {
+            resolve: `gatsby-transformer-rehype`,
+            options: {
+                filter: node => (
+                    node.internal.type === `GhostPost` ||
+                    node.internal.type === `GhostPage`
+                ),
+                plugins: [
+                    {
+                        resolve: `gatsby-rehype-ghost-links`,
+                    },
+                    {
+                        resolve: `gatsby-rehype-prismjs`,
+                    },
+                    {
+                        resolve: `gatsby-rehype-inline-images`,
+                    },
+                ],
+            },
+        },
+        {
+            resolve: `gatsby-plugin-ghost-images`,
+            options: {
+                // An array of node types and image fields per node
+                // Image fields must contain a valid absolute path to the image to be downloaded
+                lookup: [
+                    {
+                        type: `GhostPost`,
+                        imgTags: [`feature_image`],
+                    },
+                    {
+                        type: `GhostPage`,
+                        imgTags: [`feature_image`],
+                    },
+                    {
+                        type: `GhostSettings`,
+                        imgTags: [`cover_image`],
+                    },
+                ],
+                // Additional condition to exclude nodes 
+                // Takes precedence over lookup
+                exclude: node => (
+                    node.ghostId === undefined
+                ),
+                // Additional information messages useful for debugging
+                verbose: true,
+                // Option to disable the module (default: false)
+                disable: false,
+            },
+        },
+        {
+            resolve:`gatsby-source-cloudinary`,
+            options: {
+            cloudName: process.env.CLOUDINARY_CLOUD_NAME,
+            apiKey: process.env.CLOUDINARY_API_KEY,
+            apiSecret: process.env.CLOUDINARY_API_SECRET,
+            resourceType: `image`,
+            prefix: `gatsby-source-cloudinary/`
+            },
         },
         /**
          *  Utility Plugins
