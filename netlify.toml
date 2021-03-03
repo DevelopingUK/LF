@@ -4,6 +4,3 @@
 
 [template]
   incoming-hooks = ["Ghost"]
-
-[header]
-Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
