@@ -39,7 +39,7 @@ if (process.env.NODE_ENV === `production` && config.siteUrl === `http://liamfall
 module.exports = {
     siteMetadata: {
         siteUrl: process.env.SITEURL || config.siteUrl,
-        siteUrl: "http://liamfallen.com"
+        siteUrl: "https://liamfallen.com"
     },
     plugins: [
         /**
