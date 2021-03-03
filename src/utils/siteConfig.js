@@ -3,7 +3,7 @@ module.exports = {
 
     postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-    siteTitleMeta: `LiamFallen.com`, // This allows an alternative site title for meta data for pages.
+    siteTitleMeta: `LiamFallen.com | Technical SEO`, // This allows an alternative site title for meta data for pages.
     siteDescriptionMeta: `Technical SEO, Developer & Marketer`, // This allows an alternative site description for meta data for pages.
 
     shareImageWidth: 1000, // Change to the width of your default share image
