@@ -25,7 +25,7 @@ const PostCard = ({ post }) => {
                     <div className="post-card-avatar">
                         {post.primary_author.profile_image ?
                             <img className="author-profile-image" src={post.primary_author.profile_image} alt={post.primary_author.name}/> :
-                            <img className="default-avatar" src="https://res.cloudinary.com/liamf/image/upload/f_auto,q_auto/v1614886393/lf/l-2_buram3.webp" alt={post.primary_author.name}/>
+                            <img className="default-avatar" src="/images/icons/avatar.svg" alt={post.primary_author.name}/>
                         }
                     </div>
                     <span>{ post.primary_author.name }</span>
