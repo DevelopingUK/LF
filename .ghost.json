@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://lfghost.herokuapp.com",
-    "contentApiKey": "c9631119ec7a659f50fa81b8e2"
+    "apiUrl": "https://lfghosty.herokuapp.com",
+    "contentApiKey": "7500e97cd1cf45ccfb4f1637a1"
   },
   "production": {
-    "apiUrl": "https://lfghost.herokuapp.com",
-    "contentApiKey": "c9631119ec7a659f50fa81b8e2"
+    "apiUrl": "https://lfghosty.herokuapp.com",
+    "contentApiKey": "7500e97cd1cf45ccfb4f1637a1"
   }
 }
