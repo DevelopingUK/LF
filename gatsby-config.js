@@ -45,6 +45,9 @@ module.exports = {
         /**
          *  Content Plugins
          */
+         {
+            resolve: `gatsby-plugin-offline`,
+            },
         
         {
             resolve: `gatsby-source-filesystem`,
