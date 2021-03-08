@@ -860,6 +860,7 @@ h6 {
 
 .post-card-avatar .default-avatar {
     width: 26px;
+    height: auto;
 }
 
 
