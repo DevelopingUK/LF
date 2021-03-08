@@ -683,14 +683,14 @@ h6 {
 }
 
 .site-nav-icon {
-    width: 100%;
-    height: auto;
+    height: 15px;
+    width: 15px;
     margin: -5px 0 0;
 }
 
 .site-logo {
-    width: 100%;
-    height: auto;
+    height: 25px;
+    width: 25px;
 }
 
 .site-mast {
@@ -851,7 +851,6 @@ h6 {
 .post-card-avatar .author-profile-image {
     display: block;
     width: 100%;
-    height: auto;
     background: var(--color-secondary);
     border-radius: 100%;
     object-fit: cover;
