@@ -156,6 +156,7 @@ table {
 }
 img {
     max-width: 100%;
+    max-height: auto;
 }
 html {
     box-sizing: border-box;
