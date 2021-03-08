@@ -89,6 +89,7 @@ module.exports = {
                     {
                         resolve: `gatsby-rehype-inline-images`,
                     },
+                    'gatsby-plugin-no-javascript'
                 ],
             },
         },
