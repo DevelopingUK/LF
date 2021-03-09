@@ -95,13 +95,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
                 </div>
             </div>
-            <CookieConsent
-          location="bottom"
-          buttonText="Accept"
-          declineButtonText="Decline"
-          cookieName="gatsby-gdpr-google-tagmanager">
-        This site uses cookies to improve user experience...
-            </CookieConsent>
+            <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent>
 
         </>
     )
