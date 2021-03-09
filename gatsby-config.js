@@ -46,6 +46,19 @@ module.exports = {
          *  Content Plugins
          */
          {
+            resolve: `gatsby-plugin-gdpr-cookies`,
+            options: {
+              googleTagManager: {
+                trackingId: 'G-9VXQC7HC6S', // leave empty if you want to disable the tracker
+                cookieName: 'gatsby-gdpr-google-tagmanager', // default
+                dataLayerName: 'dataLayer', // default
+              },
+              // defines the environments where the tracking should be available  - default is ["production"]
+              environments: ['production', 'development']
+            },
+          },
+
+         {
             resolve: `gatsby-plugin-offline`,
             options: {
             precachePages: [`/, /about/`, `author/liam/`, `/the-perfect-candidate/`, `/seo-is-bad-for-the-internet/`, `/the-most-pointless-seo-article-2021-edition/`, `/is-your-seo-feeding-you-spoofed-analytics/`, `/the-problem-with-awards-in-marketing/`],

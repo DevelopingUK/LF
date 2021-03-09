@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import CookieConsent from "react-cookie-consent";
 
 import { Navigation } from '.'
 import config from '../../utils/siteConfig'
@@ -94,6 +95,13 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
                 </div>
             </div>
+            <CookieConsent
+          location="bottom"
+          buttonText="Accept"
+          declineButtonText="Decline"
+          cookieName="gatsby-gdpr-google-tagmanager">
+        This site uses cookies to improve user experience...
+            </CookieConsent>
 
         </>
     )
