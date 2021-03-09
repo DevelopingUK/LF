@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import CookieConsent from "react-cookie-consent";
+
 
 import { Navigation } from '.'
 import config from '../../utils/siteConfig'
@@ -36,7 +36,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
-                    <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(${site.cover_image})` } }}>
+                    <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(https://res.cloudinary.com/hhck1gh1f/image/upload/dpr_auto,f_webp,fl_alpha,q_auto:eco/v1615236930/ghost-blog-images/publication-cover--1---1-.webp)` } }}>
                         <div className="container">
                             <div className="site-mast">
                                 <div className="site-mast-left">
@@ -76,8 +76,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </main>
 
                 </div>
-                <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent>
-
                 <div className="viewport-bottom">
                     {/* The footer at the very bottom of the screen */}
                     <footer className="site-foot">
