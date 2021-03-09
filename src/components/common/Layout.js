@@ -76,6 +76,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </main>
 
                 </div>
+                <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent>
 
                 <div className="viewport-bottom">
                     {/* The footer at the very bottom of the screen */}
@@ -95,7 +96,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
                 </div>
             </div>
-            <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent>
 
         </>
     )
