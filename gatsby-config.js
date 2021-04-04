@@ -69,6 +69,7 @@ module.exports = {
         },
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
+        `gatsby-theme-material-ui`,
         {
             resolve: `gatsby-source-ghost`,
             options:
