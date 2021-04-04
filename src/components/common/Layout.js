@@ -3,8 +3,7 @@ import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
+
 
 import { Navigation } from '.'
 import config from '../../utils/siteConfig'
@@ -24,15 +23,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     const site = data.allGhostSettings.edges[0].node
     const twitterUrl = site.twitter ? `https://twitter.com/${site.twitter.replace(/^@/, ``)}` : null
     const facebookUrl = site.facebook ? `https://www.facebook.com/${site.facebook.replace(/^\//, ``)}` : null
-
-    const useStyles = makeStyles((theme) => ({
-        root: {
-          '& > *': {
-            margin: theme.spacing(1),
-          },
-        },
-      }));
-
+    
     return (
         <>
             <Helmet>
@@ -80,23 +71,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </header>
 
                     <main className="site-main">
-                 <div>export default function ContainedButtons() {
-    <div className={classes.root}>
-      <Button variant="contained">Default</Button>
-      <Button variant="contained" color="primary">
-        Primary
-      </Button>
-      <Button variant="contained" color="secondary">
-        Secondary
-      </Button>
-      <Button variant="contained" disabled>
-        Disabled
-      </Button>
-      <Button variant="contained" color="primary" href="#contained-buttons">
-        Link
-      </Button>
-    </div>
-
                         {/* All the main content gets inserted here, index.js, post.js */}
                         {children}
                     </main>
