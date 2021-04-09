@@ -58,6 +58,11 @@ module.exports = {
               trackingIds: [
                 "G-9VXQC7HC6S", // Google Analytics / GA
               ],
+              gtagConfig: {
+                anonymize_ip: false,
+                cookie_expires: 0,
+                send_page_view: true
+              },
             },
           },
         {
