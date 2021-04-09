@@ -51,6 +51,15 @@ module.exports = {
             precachePages: [`/, /about/`, `author/liam/`, `/the-perfect-candidate/`, `/seo-is-bad-for-the-internet/`, `/the-most-pointless-seo-article-2021-edition/`, `/is-your-seo-feeding-you-spoofed-analytics/`, `/the-problem-with-awards-in-marketing/`],
             },
          },
+         {
+            resolve: `gatsby-plugin-google-gtag`,
+            options: {
+              // You can add multiple tracking ids and a pageview event will be fired for all of them.
+              trackingIds: [
+                "G-9VXQC7HC6S", // Google Analytics / GA
+              ],
+            },
+          },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
