@@ -87,7 +87,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                 <Navigation data={site.navigation} navClass="site-foot-nav-item" />
                                 <Link to="/privacy-policy/">Privacy Policy</Link> &nbsp;
                                 <Link to="/terms-and-conditions/">Terms</Link> &nbsp;
-                                <Link to="/cookie-policy/">Cookies</Link>
                             </div>
                         </div>
                     </footer>
