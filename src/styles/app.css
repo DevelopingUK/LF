@@ -666,7 +666,7 @@ h6 {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
-    background: var(--color-base);
+    background: #000051;
     background-position: center;
     background-size: auto;
 }
@@ -675,7 +675,6 @@ h6 {
     display: inline-block;
     padding: 5px 10px;
     color: #fff;
-    opacity: 0.7;
 }
 
 .site-nav-item:hover {
@@ -751,7 +750,6 @@ h6 {
     font-size: 1.3rem;
     line-height: 1em;
     border-radius: var(--radius);
-    opacity: 0.7;
 }
 
 .site-nav-button:hover {
@@ -992,7 +990,7 @@ h6 {
     padding: 20px 0 40px 0;
     color: rgba(255,255,255,0.7);
     font-size: 1.3rem;
-    background: var(--color-base);
+    background: #1a237e;
 }
 
 .site-foot-nav {
