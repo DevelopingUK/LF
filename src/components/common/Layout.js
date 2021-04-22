@@ -77,13 +77,13 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 </div>
                 <div className="viewport-bottom">
                     {/* The footer at the very bottom of the screen */}
-                    <footer className="site-foot">
+                    <footer className="site-foot bg-gray-900 pattern">
                         <div className="site-foot-nav container">
                             <div className="site-foot-nav-left">
                                 <Link to="/">LiamFallen.com</Link> © 2021 &nbsp;
                             </div>
                             <div className="site-foot-nav-right">
-                                <Navigation data={site.navigation} navClass="site-foot-nav-item" />
+                        {/*}  <Navigation data={site.navigation} navClass="site-foot-nav-item" /> */}
                                 <Link to="/privacy-policy/">Privacy Policy</Link> &nbsp;
                                 <Link to="/terms-and-conditions/">Terms</Link> &nbsp;
                             </div>
