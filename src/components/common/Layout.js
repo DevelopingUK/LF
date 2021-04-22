@@ -35,7 +35,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
-                    <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url()` } }}>
+                    <header className="site-head bg-gray-900 pattern" style={{ ...site.cover_image && { backgroundImage: `url()` } }}>
                         <div className="container">
                             <div className="site-mast">
                                 <div className="site-mast-left">
