@@ -40,6 +40,33 @@ const Post = ({ data, location }) => {
                                 className="content-body load-external-scripts"
                                 dangerouslySetInnerHTML={{ __html: post.html }}
                             />
+                            <div class="py-16 bg-white">
+  <div class="max-w-screen-md mx-auto">
+
+    <div class="p-5">
+      
+      <div class="grid grid-cols-1 sm:grid-cols-12">
+        <div class="sm:col-span-3 flex flex-col items-between">
+          <img class="w-32 h-32 rounded-full sm:mr-10" src="https://res.cloudinary.com/hhck1gh1f/image/upload/ar_1:1,b_rgb:000000,bo_0px_solid_rgb:ffffff,c_fill,g_auto,r_max,w_1000/v1619097187/ghost-blog-images/srfdg_o.webp" alt="Avatar of Liam Fallen" />
+          <div class="text-sm mt-5">
+                <a href="https://liamfallen.com/" class="font-medium text-6xl leading-none text-gray-900 hover:text-indigo-600 transition duration-500 ease-in-out">Liam Fallen</a>
+                <p class="text-3xl"></p>
+              </div>
+        </div>
+        <div class="sm:col-span-9 text-left sm:flex flex-col justify-between py-3">
+          
+          <p class="mt-2 text-base leading-6 text-xl">
+          Liam Fallen is a technical SEO consultant and has worked on some of the biggest websites in the world. He's been involved with Monday.com, LeoVegas Mobile Gaming Group, and SurferSEO, to name just a few. Liam enjoys cycling and has cycled over 5000km in the last 12 months. He also enjoys photography and is an official Getty Images contributor.                </p>
+          
+            </div>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+
                         </section>
                     </article>
                 </div>
