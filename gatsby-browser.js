@@ -27,6 +27,8 @@ var trustAllScripts = function () {
     }
 };
 
+require('./src/styles/global.css')
+
 exports.onRouteUpdate = function () {
     trustAllScripts();
 };

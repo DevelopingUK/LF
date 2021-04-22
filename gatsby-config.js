@@ -45,13 +45,13 @@ module.exports = {
         /**
          *  Content Plugins
          */
-         [`gatsby-plugin-postcss`],
          {
             resolve: `gatsby-plugin-offline`,
             options: {
             precachePages: [`/, /about/`, `author/liam/`, `/the-perfect-candidate/`, `/seo-is-bad-for-the-internet/`, `/the-most-pointless-seo-article-2021-edition/`, `/is-your-seo-feeding-you-spoofed-analytics/`, `/the-problem-with-awards-in-marketing/`],
             },
          },
+         'gatsby-plugin-postcss',         
          {
             resolve: `gatsby-plugin-google-gtag`,
             options: {
