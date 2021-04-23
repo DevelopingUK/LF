@@ -12,10 +12,10 @@ const PostCard = ({ post }) => {
         <Link to={url} className="post-card">
             <header className="post-card-header">
                 {post.feature_image &&
-                    <div className="post-card-image" style={{
+                    <div className="post-card-image shadow-lg rounded-lg w-full object-cover" style={{
                         backgroundImage: `url(${post.feature_image})` ,
                     }}></div>}
-                {post.tags && <div className="post-card-tags"> <Tags post={post} visibility="public" autolink={false} /></div>}
+                {post.tags && <div className="post-card-tags text-blue-700 text-md font-medium"> <Tags post={post} visibility="public" autolink={false} /></div>}
                 {post.featured && <span>Featured</span>}
                 <h2 className="post-card-title">{post.title}</h2>
             </header>
