@@ -23,6 +23,79 @@ const Index = ({ data, location, pageContext }) => {
             
             <Layout isHome={true}>
                 <div className="container">
+                    
+                    
+<section>
+    <div class="container max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white dark:bg-gray-800">
+        <div class="flex flex-wrap -mx-8">
+            <div class="w-full lg:w-1/2 px-8">
+                <div class="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
+                    <h2 class="mb-4 text-3xl lg:text-4xl font-bold font-heading dark:text-white">
+                        If you care about user experience - hire me.
+                    </h2>
+                    <p class="mb-8 leading-loose text-gray-500 dark:text-gray-300">
+                        I'm a Technical SEO that does UX better than most UX professionals. I'm trusted by some of the best in the business including Monday.com, LeoVegas, SurferSEO and ItsNiceThat.
+                    </p>
+                    <div class="w-full md:w-1/3">
+                        <button type="button" class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                            Hire me
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-8">
+                <ul class="space-y-12">
+                    <li class="flex -mx-4">
+                        <div class="px-4">
+                            <span class="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-600">
+                                1
+                            </span>
+                        </div>
+                        <div class="px-4">
+                            <h3 class="my-4 text-xl font-semibold dark:text-white">
+                                Audit
+                            </h3>
+                            <p class="text-gray-500 dark:text-gray-300 leading-loose">
+                                I'll turn your website upside down until I find every problem.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="flex -mx-4">
+                        <div class="px-4">
+                            <span class="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-600">
+                                2
+                            </span>
+                        </div>
+                        <div class="px-4">
+                            <h3 class="my-4 text-xl font-semibold dark:text-white">
+                                Recommendations
+                            </h3>
+                            <p class="text-gray-500 dark:text-gray-300 leading-loose">
+                                I'll recommend fixes in order of importance so you know exactly what to do next.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="flex -mx-4">
+                        <div class="px-4">
+                            <span class="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold font-heading rounded-full bg-blue-50 text-blue-600">
+                                3
+                            </span>
+                        </div>
+                        <div class="px-4">
+                            <h3 class="my-4 text-xl font-semibold dark:text-white">
+                            Continuous improvement
+                            </h3>
+                            <p class="text-gray-500 dark:text-gray-300 leading-loose">
+                            I'll help you create a framework for continuous improvements.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
                     <section className="post-feed">
                         {posts.map(({ node }) => (
                             // The tag below includes the markup for each post - components/common/PostCard.js
