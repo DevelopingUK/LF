@@ -94,6 +94,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <span class="text-gray-600 dark:text-gray-200 font-bold">
                     Sune Nightingale
                 </span>
+                <span class="text-gray-500 dark:text-gray-300  ml-2 text-sm">
+                StovesOnline.co.uk
+                </span>
             </p>
             <div class="flex items-center mt-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 1792 1792">
