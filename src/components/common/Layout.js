@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import CookieConsent from "react-cookie-consent";
 
 import { Navigation } from '.'
 import config from '../../utils/siteConfig'
@@ -162,6 +163,13 @@ As well as all of that he's also a very pleasant person to work with, so it's no
                                 <Link to="/terms-and-conditions/">Terms</Link> &nbsp;
                             </div>
                         </div>
+                        <CookieConsent
+                        location="bottom"
+                        buttonText="Okay!"
+                        style={{ background: "#1E3A8A" }}
+                        buttonStyle={{ color: "#ffffff", fontSize: "13px", background: "#2563EB" }}>
+                        This website uses cookies.{" "}
+                        </CookieConsent>
                     </footer>
 
                 </div>
