@@ -75,8 +75,61 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </main>
 
                 </div>
+                <div class="container">
+                <div class="bg-white dark:bg-gray-800 w-full rounded-lg p-4 mb-6 shadow sm:inline-block">
+    <div class="flex items-start text-left">
+        <div class="flex-shrink-0">
+            <div class="inline-block relative">
+                <a href="#" class="block relative">
+                    <img alt="profil" src="https://res.cloudinary.com/hhck1gh1f/image/upload/v1619282808/ghost-blog-images/sune_p9du7v.webp" class="mx-auto object-cover rounded-full h-16 w-16 "/>
+                </a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white bg-green-600 rounded-full p-1 absolute bottom-0 right-0 w-6 h-6 -mx-1 -my-1">
+                    <path d="M19 11a7.5 7.5 0 0 1-3.5 5.94L10 20l-5.5-3.06A7.5 7.5 0 0 1 1 11V3c3.38 0 6.5-1.12 9-3 2.5 1.89 5.62 3 9 3v8zm-9 1.08l2.92 2.04-1.03-3.41 2.84-2.15-3.56-.08L10 5.12 8.83 8.48l-3.56.08L8.1 10.7l-1.03 3.4L10 12.09z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <div class="ml-6">
+            <p class="flex items-baseline">
+                <span class="text-gray-600 dark:text-gray-200 font-bold">
+                    Sune Nightingale
+                </span>
+            </p>
+            <div class="flex items-center mt-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 1792 1792">
+                    <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">
+                    </path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 1792 1792">
+                    <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">
+                    </path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 1792 1792">
+                    <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">
+                    </path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 1792 1792">
+                    <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">
+                    </path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 1792 1792">
+                    <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z">
+                    </path>
+                </svg>
+            </div>
+            <div class="mt-3">
+                <p class="mt-1 dark:text-white">
+                Liam brings a set of expert eyes to a project, he's someone who will hold you to account, push for higher evidence-based standards, lay out strategies that cover SEO, user experience, marketing strategies, site optimisations and more. He also has your long term interests in mind - he leaves you in a better position having passed on increased understanding, and helping you lay out a clear plan for continual improvement into the future.
+
+As well as all of that he's also a very pleasant person to work with, so it's not hard to highly recommend Liam.                </p>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
                 <div className="mx-auto container">
                 <div className="w-full flex flex-col items-center justify-center py-12 px-4">
+
                     <div className="flex lg:flex-row flex-col items-center  justify-between pt-16 border-brands lg:w-11/12 xl:w-9/12 f-f-l">
                         <div className="flex lg:flex-row flex-col items-center  justify-between w-full">
                             <div className="pb-8 lg:pb-0 md:object-scale-down w-full">
