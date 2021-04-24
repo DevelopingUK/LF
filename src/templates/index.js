@@ -37,9 +37,7 @@ const Index = ({ data, location, pageContext }) => {
                         I'm a Technical SEO that does UX better than most UX professionals. I'm trusted by some of the best in the business including Monday.com, LeoVegas, SurferSEO and ItsNiceThat.
                     </p>
                     <div class="w-full md:w-1/3">
-                        <button type="button" class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                            Hire me
-                        </button>
+                    <a class="bg-blue-500 rounded-lg font-bold text-white text-center px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-600 mr-6" href="/contact">Hire me</a>
                     </div>
                 </div>
             </div>
