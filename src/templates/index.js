@@ -69,7 +69,7 @@ const Index = ({ data, location, pageContext }) => {
                                 Take control
                             </h3>
                             <p class="text-gray-500 dark:text-gray-300 leading-loose">
-                                Take back control of your websites performance.
+                            Take back control of your website's performance.
                             </p>
                         </div>
                     </li>
