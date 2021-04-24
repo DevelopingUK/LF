@@ -51,7 +51,7 @@ const Index = ({ data, location, pageContext }) => {
                         </div>
                         <div class="px-4">
                             <h3 class="my-4 text-xl font-semibold dark:text-white">
-                                Audit
+                                Be the best
                             </h3>
                             <p class="text-gray-500 dark:text-gray-300 leading-loose">
                             Be the best at what you do without having to worry about your website.
@@ -66,7 +66,7 @@ const Index = ({ data, location, pageContext }) => {
                         </div>
                         <div class="px-4">
                             <h3 class="my-4 text-xl font-semibold dark:text-white">
-                                Recommendations
+                                Take control
                             </h3>
                             <p class="text-gray-500 dark:text-gray-300 leading-loose">
                                 Take back control of your websites performance.
@@ -81,7 +81,7 @@ const Index = ({ data, location, pageContext }) => {
                         </div>
                         <div class="px-4">
                             <h3 class="my-4 text-xl font-semibold dark:text-white">
-                            Continuous improvement
+                            Improve
                             </h3>
                             <p class="text-gray-500 dark:text-gray-300 leading-loose">
                             I'll give you the tools you need to create a framework for continuous improvement.
