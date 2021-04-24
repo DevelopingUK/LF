@@ -54,7 +54,7 @@ const Index = ({ data, location, pageContext }) => {
                                 Audit
                             </h3>
                             <p class="text-gray-500 dark:text-gray-300 leading-loose">
-                                I'll turn your website upside down until I find every problem.
+                            Be the best at what you do without having to worry about your website.
                             </p>
                         </div>
                     </li>
@@ -69,7 +69,7 @@ const Index = ({ data, location, pageContext }) => {
                                 Recommendations
                             </h3>
                             <p class="text-gray-500 dark:text-gray-300 leading-loose">
-                                I'll recommend fixes in order of importance so you know exactly what to do next.
+                                Take back control of your websites performance.
                             </p>
                         </div>
                     </li>
@@ -84,7 +84,7 @@ const Index = ({ data, location, pageContext }) => {
                             Continuous improvement
                             </h3>
                             <p class="text-gray-500 dark:text-gray-300 leading-loose">
-                            I'll help you create a framework for continuous improvements.
+                            I'll give you the tools you need to create a framework for continuous improvement.
                             </p>
                         </div>
                     </li>
