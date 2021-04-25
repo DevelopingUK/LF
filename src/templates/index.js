@@ -23,9 +23,91 @@ const Index = ({ data, location, pageContext }) => {
             
             <Layout isHome={true}>
                 <div className="container">
-                    
-                    
-<section>
+
+                <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+  <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+    <div>
+      <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+        Technical SEO
+      </p>
+    </div>
+    <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+      <span class="relative inline-block">
+        <svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+          <defs>
+            <pattern id="b902cd03-49cc-4166-a0ae-4ca1c31cedba" x="0" y="0" width=".135" height=".30">
+              <circle cx="1" cy="1" r=".7"></circle>
+            </pattern>
+          </defs>
+          <rect fill="url(#b902cd03-49cc-4166-a0ae-4ca1c31cedba)" width="52" height="24"></rect>
+        </svg>
+        <span class="relative">How Technical SEO works</span>
+      </span>
+    </h2>
+    <p class="text-base text-gray-700 md:text-lg">
+    </p>
+  </div>
+  <div class="grid gap-10 lg:grid-cols-4 sm:grid-cols-2">
+    <div>
+      <div class="flex items-center justify-between mb-6">
+        <p class="text-2xl font-bold">Step 1</p>
+        <svg class="w-6 text-gray-700 transform rotate-90 sm:rotate-0" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <line fill="none" stroke-miterlimit="10" x1="2" y1="12" x2="22" y2="12"></line>
+          <polyline fill="none" stroke-miterlimit="10" points="15,5 22,12 15,19 "></polyline>
+        </svg>
+      </div>
+      <p class="text-gray-600">
+        It all starts with an audit to find where your website is failing.
+      </p>
+    </div>
+    <div>
+      <div class="flex items-center justify-between mb-6">
+        <p class="text-2xl font-bold">Step 2</p>
+        <svg class="w-6 text-gray-700 transform rotate-90 sm:rotate-0" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <line fill="none" stroke-miterlimit="10" x1="2" y1="12" x2="22" y2="12"></line>
+          <polyline fill="none" stroke-miterlimit="10" points="15,5 22,12 15,19 "></polyline>
+        </svg>
+      </div>
+      <p class="text-gray-600">
+        Gather all of that audit data and analyse for solutions.
+      </p>
+    </div>
+    <div>
+      <div class="flex items-center justify-between mb-6">
+        <p class="text-2xl font-bold">Step 3</p>
+        <svg class="w-6 text-gray-700 transform rotate-90 sm:rotate-0" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <line fill="none" stroke-miterlimit="10" x1="2" y1="12" x2="22" y2="12"></line>
+          <polyline fill="none" stroke-miterlimit="10" points="15,5 22,12 15,19 "></polyline>
+        </svg>
+      </div>
+      <p class="text-gray-600">
+        Present recommendations based on the data collected.
+      </p>
+    </div>
+    <div>
+      <div class="flex items-center justify-between mb-6">
+        <p class="text-2xl font-bold">Success</p>
+        <svg class="w-8 text-gray-600" stroke="currentColor" viewBox="0 0 24 24">
+          <polyline fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="6,12 10,16 18,8"></polyline>
+        </svg>
+      </div>
+      <p class="text-gray-600">
+        Enjoy the success, your users will thank you for it too.
+      </p>
+    </div>
+  </div>
+</div>
+
+                    <section className="post-feed">
+                        {posts.map(({ node }) => (
+                            // The tag below includes the markup for each post - components/common/PostCard.js
+                            <PostCard key={node.id} post={node} />
+                        ))}
+                    </section>
+                    <Pagination pageContext={pageContext} />
+                </div>
+
+                <section>
     <div class="container max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white dark:bg-gray-800">
         <div class="flex flex-wrap -mx-8">
             <div class="w-full lg:w-1/2 px-8">
@@ -93,15 +175,6 @@ const Index = ({ data, location, pageContext }) => {
         </div>
     </div>
 </section>
-
-                    <section className="post-feed">
-                        {posts.map(({ node }) => (
-                            // The tag below includes the markup for each post - components/common/PostCard.js
-                            <PostCard key={node.id} post={node} />
-                        ))}
-                    </section>
-                    <Pagination pageContext={pageContext} />
-                </div>
             </Layout>
         </>
     )
