@@ -1,7 +1,8 @@
 {
     "redirects": [
         {
-            "trailingSlash": false
+            "trailingSlash": false,
+            "permanent": true
         }
     ]
   }
