@@ -75,16 +75,14 @@ const Post = ({ data, location }) => {
                     </div>
                 </div>
 
-                <div class="mt-8 lg:mt-0 lg:w-1/2">
+            {/*    <div class="mt-8 lg:mt-0 lg:w-1/2">
                     <div class="flex items-center justify-center lg:justify-end">
                         <div class="max-w-sm">
                             <img class="object-fit object-center w-full h-74 rounded-md shadow" src="https://res.cloudinary.com/hhck1gh1f/image/upload/ar_1:1,b_rgb:000000,bo_0px_solid_rgb:ffffff,c_fill,g_auto,r_max,w_1000/v1619097187/ghost-blog-images/srfdg_o.webp" alt="" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
-    </div>    
-  </div>  
                     </article>
                 </div>
             </Layout>
