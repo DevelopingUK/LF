@@ -55,7 +55,7 @@ const Post = ({ data, location }) => {
                         <div class="bg-white dark:bg-gray-800">
         <div class="container px-6 py-8 mx-auto">
             <div class="items-center lg:flex">
-                <div class="lg:w-1/2">
+                <div class="lg:w-full">
                     <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">About the Author</h2>
 
                     <p class="mt-4 text-gray-500 dark:text-gray-400">
