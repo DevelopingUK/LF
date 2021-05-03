@@ -6,8 +6,12 @@ import { Layout } from '../components/common'
 import { MetaData } from '../components/common/meta'
 
 const Contact = () => {
-  return (
+  return (    
       <Layout>
+        <Helmet>
+                <title>Contact | LiamFallen.com</title>
+                <meta name="description" content="Contact Liam Fallen here or through LinkedIn." />
+            </Helmet>
 <div class="container md:flex md:justify-center mb-6">
     <h1>Contact</h1>
       </div>
