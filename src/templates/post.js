@@ -40,11 +40,9 @@ const Post = ({ data, location }) => {
                                 className="content-body load-external-scripts"
                                 dangerouslySetInnerHTML={{ __html: post.html }}
                             />
-                            <div class="py-16 bg-white">
   <div class="max-w-screen-md mx-auto">
 
     <div class="p-5">
-        </div>
         </div>
         </div>
 
