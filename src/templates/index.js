@@ -521,7 +521,7 @@ And if your website is slow, it could also be costing you money, causing potenti
                                 <div className="flex items-center justify-between pb-8">
                                     <div className="xl:flex md:flex lg:flex sm:flex items-center">
                                         <div className="h-20 w-20">
-                                            <img src="https://res.cloudinary.com/hhck1gh1f/image/upload/v1619282808/ghost-blog-images/sune_p9du7v.webp" alt className="rounded-full object-cover h-full w-full shadow" />
+                                            <img src="https://res.cloudinary.com/hhck1gh1f/image/upload/v1619282808/ghost-blog-images/sune_p9du7v.webp" alt="Photo of Sune Nightingale" className="rounded-full object-cover h-full w-full shadow" />
                                         </div>
                                         <div className="xl:pl-6 lg:pl-6 md:pl-6 sm:pl-6 sm:pt-0 pt-4">
                                             <p className="text-xl text-gray-600 font-bold">Sune Nightingale</p>

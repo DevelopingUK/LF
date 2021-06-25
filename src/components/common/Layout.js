@@ -88,13 +88,13 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     <div className="flex lg:flex-row flex-col items-center  justify-between pt-16 border-brands lg:w-11/12 xl:w-9/12 f-f-l">
                         <div className="flex lg:flex-row flex-col items-center  justify-between w-full">
                             <div className="pb-8 lg:pb-0 md:object-scale-down w-full">
-                                <img src="https://res.cloudinary.com/hhck1gh1f/image/upload/c_fit,h_47,w_143/v1619170165/ghost-blog-images/Monday.com-Logo.wine_u1r02w.webp" />
+                                <img src="https://res.cloudinary.com/hhck1gh1f/image/upload/c_fit,h_47,w_143/v1619170165/ghost-blog-images/Monday.com-Logo.wine_u1r02w.webp" alt="Monday.com logo" />
                             </div>
                             <div className="pb-8 lg:pb-0 md:object-scale-down w-full">
-                            <img src="https://res.cloudinary.com/hhck1gh1f/image/upload/c_fit,h_47,w_143/v1619169262/ghost-blog-images/download_qbsoxp.webp" />
+                            <img src="https://res.cloudinary.com/hhck1gh1f/image/upload/c_fit,h_47,w_143/v1619169262/ghost-blog-images/download_qbsoxp.webp" alt="SurferSEO.com logo"/>
                             </div>
                             <div className="pb-8 lg:pb-0 md:object-scale-down w-full">
-                            <img src="https://res.cloudinary.com/hhck1gh1f/image/upload/c_fit,h_47,w_143/v1619169103/ghost-blog-images/leovegas-mobile-gaming-group1_uvuk3q.webp" />
+                            <img src="https://res.cloudinary.com/hhck1gh1f/image/upload/c_fit,h_47,w_143/v1619169103/ghost-blog-images/leovegas-mobile-gaming-group1_uvuk3q.webp" alt="LeoVegas logo"/>
                             </div>
                         </div>
                     </div>
