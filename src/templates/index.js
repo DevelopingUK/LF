@@ -59,10 +59,10 @@ const Index = ({ data, location, pageContext }) => {
                         </div>
                         <div class="px-4">
                             <h3 class="my-4 text-xl font-semibold dark:text-white">
-                                Ensure your users are happy!
+                                Ensure your users are happy
                             </h3>
                             <p class="text-gray-500 dark:text-gray-300 leading-loose">
-                            Ensuring your users happy keeps them on your website longer.
+                            Ensuring your users are happy will keep them on your website longer.
                             </p>
                         </div>
                     </li>
