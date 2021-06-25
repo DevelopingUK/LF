@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 import { Layout, PostCard, Pagination } from '../components/common'
 import { MetaData } from '../components/common/meta'
@@ -25,6 +26,10 @@ const Index = ({ data, location, pageContext }) => {
             <MetaData location={location} />
             
             <Layout isHome={true}>
+            <Helmet>
+                <title>Liam Fallen | Technical SEO Consultant</title>
+                <meta name="description" content="Liam Fallen is a Technical SEO Consultant with a background in web development and marketing." />
+            </Helmet>
                 <div className="container">
 
                 <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
