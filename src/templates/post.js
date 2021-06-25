@@ -57,7 +57,7 @@ const Post = ({ data, location }) => {
                     <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">About the Author</h2>
 
                     <p class="mt-4 text-gray-500 dark:text-gray-400">
-                        Hi, I'm Liam Fallen, a certified Technical SEO consultant with over 6 years of experience working on some of the biggest websites in the world. I've previously worked with Monday.com, LeoVegas Mobile Gaming Group, and SurferSEO. I studied Criminology at <a href="https://www.shu.ac.uk/" >Sheffield Hallam</a> before moving into marketing and development. Over the last 12 months, I have cycled over 5000km and became an official Getty Images contributor.
+                        Hi, I'm <a href="https://liamfallen.com/author/liam/">Liam Fallen</a>, a certified Technical SEO consultant with over 6 years of experience working on some of the biggest websites in the world. I've previously worked with Monday.com, LeoVegas Mobile Gaming Group, and SurferSEO. I studied Criminology at <a href="https://www.shu.ac.uk/" >Sheffield Hallam</a> before moving into marketing and development. Over the last 12 months, I have cycled over 5000km and became an official Getty Images contributor.
                     </p>
 
                     <div class="flex items-center mt-6 -mx-2">
